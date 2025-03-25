@@ -11,7 +11,7 @@ dotenv_1.default.config();
 var PORT = process.env.PORT || 3000;
 app_1.app
   .listen(PORT, function () {
-    console.log("Server currently listening on port " + PORT);
+    console.log("Server currently listening on port ".concat(PORT));
   })
   .on("error", function (error) {
     throw new Error(error.message);
